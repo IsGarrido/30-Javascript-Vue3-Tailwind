@@ -22,3 +22,7 @@ pnpm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Eslint ref 
+https://agm1984.medium.com/how-to-set-up-es-lint-for-airbnb-vue-js-and-vs-code-a5ef5ac671e8
