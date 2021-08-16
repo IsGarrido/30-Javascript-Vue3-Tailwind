@@ -1,28 +1,14 @@
-# 30_days_vue3_tailwind
+# 30 days Vue 3 Tailwind
 
-## Project setup
+Implementación del curso/reto [JavaScript30](https://github.com/wesbos/JavaScript30) usando:
+- [Vue.js 3](https://v3.vuejs.org/)
+- [Tailwind 2](https://tailwindcss.com/)
+- [PNPM 6](https://pnpm.io/es/)
+- [EsLint](https://eslint.org/)
+
 ```
 pnpm install
-```
-
-### Compiles and hot-reloads for development
-```
 pnpm run serve
-```
-
-### Compiles and minifies for production
-```
 pnpm run build
-```
-
-### Lints and fixes files
-```
 pnpm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-### Eslint ref 
-https://agm1984.medium.com/how-to-set-up-es-lint-for-airbnb-vue-js-and-vs-code-a5ef5ac671e8
