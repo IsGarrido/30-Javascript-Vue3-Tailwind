@@ -11,6 +11,11 @@ const routes = [
     name: 'Clock',
     component: () => import('../views/D2/Clock.vue'),
   },
+  {
+    path: '/D3',
+    name: 'Css Controls',
+    component: () => import('../views/D3/CssControls.vue'),
+  },
 ];
 
 const router = createRouter({

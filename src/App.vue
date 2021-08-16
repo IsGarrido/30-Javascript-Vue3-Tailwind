@@ -1,10 +1,13 @@
 <template>
-  <router-view/>
-
+<div>
+<router-view/>
   <div id="nav">
     <router-link to="/D1">D1</router-link> |
     <router-link to="/D2">D2</router-link> |
+    <router-link to="/D3">D3</router-link> |
   </div>
+</div>
+
 </template>
 
 <style>
