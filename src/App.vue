@@ -1,14 +1,30 @@
 <template>
 <div>
 <router-view/>
-  <div id="nav">
-    <router-link to="/D1">D1</router-link> |
-    <router-link to="/D2">D2</router-link> |
-    <router-link to="/D3">D3</router-link> |
+  <div id="nav" v-for="(item, idx) in items" :key="idx">
+    <router-link :to="item.path">{{ item.name}}</router-link> |
   </div>
 </div>
 
 </template>
+
+<script>
+export default {
+  created() {
+    this.$router.options.routes.forEach((route) => {
+      this.items.push({
+        name: route.name,
+        path: route.path,
+      });
+    });
+  },
+  data() {
+    return {
+      items: [],
+    };
+  },
+};
+</script>
 
 <style>
 /* #app {

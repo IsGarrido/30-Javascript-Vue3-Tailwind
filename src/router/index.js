@@ -16,6 +16,11 @@ const routes = [
     name: 'Css Controls',
     component: () => import('../views/D3/CssControls.vue'),
   },
+  {
+    path: '/D4',
+    name: 'Function',
+    component: () => import('../views/D4/Functional.vue'),
+  },
 ];
 
 const router = createRouter({
