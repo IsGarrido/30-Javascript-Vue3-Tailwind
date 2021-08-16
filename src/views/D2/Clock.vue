@@ -32,7 +32,7 @@ export default {
     },
     GetSecondsStyle() {
       const deg = ((this.seconds / 60) * 360) + 90;
-      return { transform: `rotate(${deg}deg)` };
+      return { transform: `rotate(${deg}deg)`, 'background-color': 'red' };
     },
     GetMinutesStyle() {
       const deg = ((this.minutes / 60) * 360) + 90;
