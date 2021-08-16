@@ -1,6 +1,6 @@
 # 30 days Vue 3 Tailwind
 
-Implementación del curso/reto [JavaScript30](https://github.com/wesbos/JavaScript30) usando:
+Implementación del curso/reto [JavaScript30](https://github.com/wesbos/JavaScript30) ([backup](https://github.com/IsGarrido/JavaScript30/)) usando:
 - [Vue.js 3](https://v3.vuejs.org/)
 - [Tailwind 2](https://tailwindcss.com/)
 - [PNPM 6](https://pnpm.io/es/)
