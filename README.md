@@ -12,3 +12,5 @@ pnpm run serve
 pnpm run build
 pnpm run lint
 ```
+
+Las implementaciones no son completamente iguales, la idea es usarlas para probar Tailwind y PNPM.
