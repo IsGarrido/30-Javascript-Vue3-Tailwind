@@ -3,6 +3,7 @@
 
   <div id="nav">
     <router-link to="/D1">D1</router-link> |
+    <router-link to="/D2">D2</router-link> |
   </div>
 </template>
 

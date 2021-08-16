@@ -4,8 +4,13 @@ const routes = [
   {
     path: '/D1',
     name: 'Drum Kit',
-    component: () => import ( '../views/D1/DrumKit.vue' )
-  }
+    component: () => import('../views/D1/DrumKit.vue'),
+  },
+  {
+    path: '/D2',
+    name: 'Clock',
+    component: () => import('../views/D2/Clock.vue'),
+  },
 ];
 
 const router = createRouter({
