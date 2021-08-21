@@ -21,6 +21,11 @@ const routes = [
     name: 'Function',
     component: () => import('../views/D4/Functional.vue'),
   },
+  {
+    path: '/D5',
+    name: 'Gallery',
+    component: () => import('../views/D5/Gallery.vue'),
+  },
 ];
 
 const router = createRouter({

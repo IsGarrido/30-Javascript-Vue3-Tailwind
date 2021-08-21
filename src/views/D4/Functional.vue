@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import Inventors from '@/assets/D4/inventors';
-import People from '@/assets/D4/people';
+import Inventors from '../../assets/D4/inventors';
+import People from '../../assets/D4/people';
 
 export default {
   data() {

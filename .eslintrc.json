@@ -28,5 +28,6 @@
                 "code": 200
             }
         ]
+        // "import/no-unresolved": "off"
     }
 }
