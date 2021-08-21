@@ -31,6 +31,11 @@ const routes = [
     name: 'Type Ahead',
     component: () => import('../views/D6/TypeAhead.vue'),
   },
+  {
+    path: '/D7',
+    name: 'Functional 2',
+    component: () => import('../views/D7/Functional2.vue'),
+  },
 ];
 
 const router = createRouter({

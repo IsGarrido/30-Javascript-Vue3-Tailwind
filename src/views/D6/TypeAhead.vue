@@ -4,7 +4,7 @@
     <div class="w-2/3 justify-center m-auto  border-2 border-black rounded">
       <div class="p-5 text-xl border-b-2 border-black bg-blue-100">
             <label>Buscador:</label>
-            <input class="flex flex-col border-black border-2 rounded p-2 w-full" v-model="SearchString">
+            <input class=" border-black border-2 rounded p-2 w-full block px-5 py-2 bg-white shadow-lg  text-gray-700 focus:ring focus:outline-none" v-model="SearchString" placeholder="Ciudad">
       </div>
       <div class="max-h-96 overflow-scroll" v-if="Cities">
         <div v-for="(item, idx) in Search" :key="idx" class="border-b p-2" :class="GetClass(idx)">
