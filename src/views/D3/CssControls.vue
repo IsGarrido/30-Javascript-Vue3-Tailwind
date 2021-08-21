@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import Venom from '@/assets/D3/venom.jpg';
+import Venom from '../../assets/D3/venom.jpg';
 
 export default {
   data() {

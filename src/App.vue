@@ -1,9 +1,13 @@
 <template>
 <div>
 <router-view/>
+<div class="break"></div>
+<div class="flex flex-col">
   <div id="nav" v-for="(item, idx) in items" :key="idx">
     <router-link :to="item.path">{{ item.name}}</router-link> |
   </div>
+
+</div>
 </div>
 
 </template>
@@ -27,6 +31,10 @@ export default {
 </script>
 
 <style>
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

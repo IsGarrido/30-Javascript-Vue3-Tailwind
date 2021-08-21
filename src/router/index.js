@@ -26,6 +26,11 @@ const routes = [
     name: 'Gallery',
     component: () => import('../views/D5/Gallery.vue'),
   },
+  {
+    path: '/D6',
+    name: 'Type Ahead',
+    component: () => import('../views/D6/TypeAhead.vue'),
+  },
 ];
 
 const router = createRouter({
