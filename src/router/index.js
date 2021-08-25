@@ -36,6 +36,17 @@ const routes = [
     name: 'Functional 2',
     component: () => import('../views/D7/Functional2.vue'),
   },
+  {
+    path: '/D8',
+    name: 'Canvas',
+    component: () => import('../views/D8/Canvas.vue'),
+  },
+  {
+    path: '/D10',
+    name: 'MultiCheckbox',
+    component: () => import('../views/D10/MultiCheckbox.vue'),
+  },
+
 ];
 
 const router = createRouter({

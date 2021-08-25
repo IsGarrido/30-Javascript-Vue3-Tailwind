@@ -93,7 +93,6 @@ export default {
         if (data.length < this.people.length) { data = []; }
       }
 
-      console.log(data);
       return data;
     },
     GetResultComments() {
