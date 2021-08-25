@@ -46,7 +46,11 @@ const routes = [
     name: 'MultiCheckbox',
     component: () => import('../views/D10/MultiCheckbox.vue'),
   },
-
+  {
+    path: '/D11',
+    name: 'Konami Code',
+    component: () => import('../views/D11/KonamiCode.vue'),
+  },
 ];
 
 const router = createRouter({
