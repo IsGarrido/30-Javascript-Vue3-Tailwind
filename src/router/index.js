@@ -47,9 +47,19 @@ const routes = [
     component: () => import('../views/D10/MultiCheckbox.vue'),
   },
   {
-    path: '/D11',
+    path: '/D12',
     name: 'Konami Code',
-    component: () => import('../views/D11/KonamiCode.vue'),
+    component: () => import('../views/D12/KonamiCode.vue'),
+  },
+  {
+    path: '/D15',
+    name: 'Local Storage',
+    component: () => import('../views/D15/LocalStorage.vue'),
+  },
+  {
+    path: '/D17',
+    name: 'Sort',
+    component: () => import('../views/D17/Sort.vue'),
   },
 ];
 
